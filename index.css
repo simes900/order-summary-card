@@ -113,6 +113,11 @@ button{
     color:hsl(224, 23%, 55%);
    cursor: pointer;
 }
+.bottom{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 5px;
+}
 @media (min-width: 600px){
     body{
         background-image: url("images/pattern-background-desktop.svg");
